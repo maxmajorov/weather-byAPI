@@ -1,0 +1,112 @@
+body {
+    background-image: linear-gradient(141deg, #97acb6 0%, #002fff 45%, #3d00cc 75%);
+
+
+}
+
+.input {
+    padding: 10px;
+    border-radius: 10px;
+
+    opacity: .8;
+    text-align: center;
+}
+
+.headline {
+    color: white;
+    font-size: 35px;
+}
+
+.input-city {
+    width: 200px;
+    height: 22px;
+    border-radius: 10px;
+}
+
+.get-weather {
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(97, 131, 243);
+    box-shadow: inset -5px -5px 5px 0 rgba(0, 0, 0, .5),
+        inset 5px 5px 5px 0 rgba(255, 255, 255, 0.5);
+    opacity: .8;
+}
+
+.container {
+    /* margin-top: 20px; */
+    width: 25%;
+    height: 50%;
+    border: 2px solid rgb(3, 83, 189);
+    border-radius: 10px;
+    padding: 15px;
+    margin: auto;
+    color: white;
+}
+
+.city {
+    font-size: 30px;
+}
+
+.current-day {
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.humidity,
+.pressure,
+.description,
+.wind {
+    padding-top: 10px;
+    opacity: .5;
+}
+
+.degrees {
+    float: right;
+    text-align: right;
+    font-size: 40px;
+}
+
+.icon {
+    float: right;
+    text-align: center;
+}
+
+#tablo {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+    justify-content: space-around;
+    opacity: .8;
+
+}
+
+.day {
+    background-image: linear-gradient(141deg, #97acb6 0%, #002fff 45%, #3d00cc 75%);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: #e8ffe8;
+    opacity: .9;
+    text-shadow: 0 0 10px #070707;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.temp1,
+.temp2,
+.temp3,
+.temp4,
+.temp5 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.wind1,
+.wind2,
+.wind3,
+.wind4,
+.wind5 {
+    margin-bottom: 15px;
+}
